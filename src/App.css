@@ -1,0 +1,13 @@
+#root {
+  width: 100vw;
+  min-width: 300px;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.sharp-shadow {
+  border: 1px solid black;
+  box-shadow: 10px 10px 0 0 black;
+}
