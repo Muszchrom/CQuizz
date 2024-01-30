@@ -13,7 +13,7 @@ const AnswerContainer: React.FC<AnswerContainerProps> = ({children, handleClick,
       tabIndex={0}
       onClick={handleClick} 
       className={clsx(
-        "bg-transparent border border-white p-3 text-left", 
+        "border border-white p-3 text-left", 
         color === "green" && "bg-[#2bbc2f]",
         color === "red" && "bg-[red]",
         hoverEffect && "hover:bg-white hover:text-black"
